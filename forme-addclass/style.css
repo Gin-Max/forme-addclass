@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+main {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #333;
+  color: white;
+  font-size: 1em;
+  margin-bottom:2%;
+}
+
+.hide {
+  display: none;
+}
+
+.forme {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: darkblue;
+  transition: background-color 1s ease;
+  text-align: center;
+  font-size: 30px;
+  color: #FFF;
+}
+
+.forme.survol {
+  background-color: green;
+  cursor: pointer;
+}
+
+.forme.dblclick {
+  background-color: red;
+  cursor: crosshair;
+}
